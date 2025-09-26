@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f2f2f2;
+    color: #222;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    border: 2px red solid;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(147, 147, 233);
+}
+
+.title span {
+    color: black;
+    background-color: yellow;
+}
+
+.intro {
+    font-size: 18px;
+}
+
+.section {
+    background: yellow;
+    padding: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.images img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.video {
+    text-align: center;
+    margin: 20px 0;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #999;
+}
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 2px solid black;
+}
+
+th {
+    background: green;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    background: blue;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+}
+.samy {
+    background: red;
+    color: white;
+}
+p {
+    background: red;
+    color: white;
+}
+.six {
+    background: black;
+    color: white;
+}
+.maymun {
+    background: blue;
+    color: white;
+}
